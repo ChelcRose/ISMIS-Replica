@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+}
+@font-face{
+    font-family: OpenSans;
+    src: url(OpenSans.ttf)
+}
+
+html{
+    font-family: OpenSans;
+}
+header img{
+    width: 330px;
+}
+
+.headerdiv{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.right .profilePart{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 13px;
+}
+.right img{
+    width:20px;
+}
+.right .profilePart img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid pink;
+}
+
+hr{
+    height:5px;
+    background-color: rgb(188, 174, 53);
+    margin: 0px;
+    border: none;
+}
+
+.navbar{
+    display: block;
+    background-color: rgb(5, 61, 5);
+    margin: 0px;
+}
+
+.navbar ul{
+    margin: 0px;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40 px;
+    padding:10px;
+    list-style-type: none;
+    color: white;
+}
+
+
+.navbar li{
+    padding: 10px 10px;
+ 
+    
+}
+
+.navbar li:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
